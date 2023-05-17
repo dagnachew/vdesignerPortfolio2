@@ -1,0 +1,115 @@
+#main-header img {
+  width: 100% ;
+  height: 100%;
+
+}
+
+#main-header .port-item {
+  width: 30%;
+}
+
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.bg-black {
+  color: #000;
+  background: #6f94a6;
+  opacity: .7;
+}
+
+#home-header, #resume-header, #work-header, #contact-header {
+  border-top: none;
+}
+
+.card, .card-body {
+  border-radius: 0;
+}
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 4em !important;
+  }
+}
+
+@media (min-width:576px) {
+  #work img, a img {
+    margin-top: 10px !important;
+  }
+}
+
+@media (max-width:769px) {
+  #work img, a img {
+    margin-top: 10px !important;
+  }
+}
+
+@media (max-width:991px) {
+  #work img, a img {
+    margin-top: 10px !important;
+  }
+}
+
+@media (max-width:1199px) {
+  #work img, a img {
+    margin-top: 10px !important;
+  }
+
+  a:hover {
+    opacity: .9;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  #main-header img {
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 576px) {
+  h1.display-4 {
+    font-size: 2.7em;
+    line-height: 1 !important;
+    text-align: center !important;
+    padding: 0 !important;
+  } 
+
+  .port-item {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+}
+
+@media (max-width:576px) {
+  .port-item {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+}
+
+
+/* Colors */
+
+.bg-primary {
+  background-color: #BF907E !important;
+}
+
+.bg-success {
+  background-color: #F2C299 !important;
+}
+
+.bg-warning {
+  background-color: #BFAE99 !important;
+}
+
+.bg-danger, .btn-danger {
+  background-color: #D9D0C1 !important;
+}
+
+.btn-danger {
+  background-color: #D9D0C1 !important;
+  border-color: #D9D0C1!important;
+}
